@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import { auth, GithubAuthProvider, signInWithPopup} from './firebase-config';
 import { useHistory } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
+import './App.css';
 
 const Login = () => {
 
