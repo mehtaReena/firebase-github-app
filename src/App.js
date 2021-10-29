@@ -41,7 +41,7 @@ const Login = () => {
     <div>
        <NavBar
        method={"login"}/>
-        <Box sx={{ flexGrow: 1 }}  mt={30} ml={85}>
+        <Box sx={{ flexGrow: 1 }}  mt={40} ml={85}>
          <Button color="primary" variant="contained" endIcon={<GitHubIcon />} onClick={login}>Login with Github</Button>
 
           </Box>
