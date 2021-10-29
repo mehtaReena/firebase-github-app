@@ -72,12 +72,12 @@ export default function NavBar( props) {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Products
           </Typography>
-          <Box sx={{ flexGrow: 1 }}>
+
           {
-                props.method ==='login'?  <Button color="inherit"onClick={login}>Login with Github</Button>
+                props.method ==='login'?  <Button color="inherit"onClick={login}></Button>
               : <Button color="inherit"onClick={logout}>{props.method}</Button>
           }
-          </Box>
+
 
         </Toolbar>
       </AppBar>
